@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="10dp"
+        android:weightSum="6">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Helmet Worn: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:paddingVertical="20dp"
+            android:layout_weight="4"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/helmet_worn_true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="True"
+            android:textSize="20dp"
+            android:paddingVertical="20dp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/helmet_worn_false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="False"
+            android:textSize="20dp"
+            android:paddingVertical="20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="User Information: "
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:layout_weight="2.5"
+            android:paddingVertical="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/user_safe"
+            android:layout_width="0dp"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:paddingVertical="20dp"
+            android:layout_height="wrap_content"
+            android:text="User Safe"
+            android:layout_weight="1.5"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/user_falling"
+            android:layout_width="0dp"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:text="User Falling"
+            android:gravity="center"
+            android:layout_weight="2"/>
+        <TextView
+            android:id="@+id/accident"
+            android:layout_width="0dp"
+            android:textSize="13dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:paddingVertical="20dp"
+            android:text="Accident"
+            android:gravity="center"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
